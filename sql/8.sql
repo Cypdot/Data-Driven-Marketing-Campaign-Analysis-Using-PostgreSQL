@@ -1,0 +1,1 @@
+SELECT "Channel_Used", SUM("Impressions" * "Conversion_Rate") AS "TotalConversions" FROM marketing_campaign GROUP BY "Channel_Used" ORDER BY "TotalConversions" DESC;

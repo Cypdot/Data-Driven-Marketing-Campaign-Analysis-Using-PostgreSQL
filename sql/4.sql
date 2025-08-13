@@ -1,0 +1,1 @@
+SELECT "Target_Audience", AVG("Engagement_Score") AS "AvgEngagementScore" FROM marketing_campaign GROUP BY "Target_Audience";

@@ -1,0 +1,1 @@
+SELECT "Campaign_ID", SUM("Impressions") AS "TotalImpressions" FROM marketing_campaign GROUP BY "Campaign_ID";

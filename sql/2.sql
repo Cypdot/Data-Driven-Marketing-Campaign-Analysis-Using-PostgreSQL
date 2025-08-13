@@ -1,0 +1,1 @@
+SELECT "Campaign_ID", "Company", "ROI" FROM marketing_campaign ORDER BY "ROI" DESC LIMIT 1;

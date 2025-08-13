@@ -1,0 +1,1 @@
+SELECT "Location", SUM("Impressions") AS "TotalImpressions" FROM marketing_campaign GROUP BY "Location" ORDER BY "TotalImpressions" DESC LIMIT 3;

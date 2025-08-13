@@ -1,0 +1,1 @@
+SELECT "Campaign_ID", "Company", ("Acquisition_Cost" / NULLIF("Conversion_Rate", 0)) AS "CostPerConversion" FROM marketing_campaign ORDER BY "CostPerConversion" ASC LIMIT 1;
