@@ -21,7 +21,7 @@ marketing-campaign-analysis/
 ## 🛠 Technologies Used
 - **PostgreSQL** for querying the marketing campaign data
 - **SQL** for data analysis
-- **Python (optional)** for cleaning and preparing the dataset
+- **Python** for cleaning and preparing the dataset
 - **FPDF** for generating the report
 
 ## 📊 Analysis Tasks
@@ -44,5 +44,5 @@ marketing-campaign-analysis/
 - All queries are written for PostgreSQL and match the table schema provided.
 
 ---
-**Author:** Your Name  
+**Author:** Adedolapo
 
